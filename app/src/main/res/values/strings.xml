@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="label" />
+    <string name="content_description_end_icon" />
 </resources>
