@@ -16,11 +16,22 @@
         android:orientation="vertical"
         android:padding="16dp">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:shadowColor="#FFF"
+            android:shadowRadius="10"
+            android:text="Calculadora de Gorjeta"
+            android:textColor="#000"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textValor"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -50,7 +61,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="20dp"
-            android:entries="@array/brew_array" />
+            android:entries="@array/calculo" />
 
         <Button
             android:id="@+id/containedButton"
@@ -68,7 +79,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Qualidade da conta:" />
+                android:hint="Valor da Gorjeta:" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,7 +92,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Qualidade da conta:" />
+                android:hint="Valor Total" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
