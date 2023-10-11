@@ -20,7 +20,7 @@
             android:id="@+id/textValor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label">
+            >
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:id="@+id/textQualidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/label"
+
             android:paddingTop="10dp">
 
             <com.google.android.material.textfield.TextInputEditText
@@ -43,16 +43,14 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+
         <Spinner
-            android:id="@+id/coursesspinner"
-            android:layout_height="50dp"
-            android:layout_width="160dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            android:id="@+id/static_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:entries="@array/brew_array" />
 
         <Button
             android:id="@+id/containedButton"
@@ -60,6 +58,32 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="Contained button" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textGorjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Qualidade da conta:" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Qualidade da conta:" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 

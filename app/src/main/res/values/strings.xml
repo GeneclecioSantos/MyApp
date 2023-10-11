@@ -1,4 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyApp</string>
-    <string name="label" />
-</resources>
+    <string name="app_name">Ahotbrew.com - Dropdown</string>
+    <array name="brew_array">
+        <item>a. Excelente – 10%</item>
+        <item>b. Ótimo – 8%</item>
+        <item>c. Bom – 5%</item>
+        <item>d. Ruim – 2% </item>
+    </array></resources>
