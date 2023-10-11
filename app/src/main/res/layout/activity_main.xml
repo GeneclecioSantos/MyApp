@@ -40,23 +40,11 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textQualidade"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
 
-            android:paddingTop="10dp">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Qualidade da conta:" />
-
-        </com.google.android.material.textfield.TextInputLayout>
 
 
         <Spinner
-            android:id="@+id/static_spinner"
+            android:id="@+id/porcentagem"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -68,7 +56,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Contained button" />
+            android:text="Calcular" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/textGorjeta"
